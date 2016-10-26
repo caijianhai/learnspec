@@ -1,4 +1,4 @@
-# Pod::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name             = 'learnspec'
   s.version          = '0.1.0'
   s.summary          = 'A short description of PrivateOS.'
@@ -18,5 +18,5 @@ TODO: Add long description of the pod here.
   s.source_files = 'learnspec/**/*'
 
   s.public_header_files = 'Pod/**/*.h'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'MapKit'
 end
