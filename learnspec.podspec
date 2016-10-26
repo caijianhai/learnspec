@@ -6,14 +6,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/caijianhai/learnspec.git'
+  s.homepage         = 'https://github.com/caijianhai'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '蔡建海' => 'caijianhai0312@sina.com' }
   s.source           = { :git => 'https://github.com/caijianhai/learnspec.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+#  s.ios.deployment_target = '8.0'
 
 #  s.source_files = 'learnspec/**/*'
 
